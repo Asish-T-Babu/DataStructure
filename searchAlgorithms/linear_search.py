@@ -6,3 +6,5 @@ for i in range(len(list1)):
         break
 else:
     print('element not found')
+
+# Time Complexity - 0(n)
