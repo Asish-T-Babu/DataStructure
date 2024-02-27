@@ -7,4 +7,6 @@ for i in range(len(unsorted_list)-1):
     if min != i:
         unsorted_list[i], unsorted_list[min] = unsorted_list[min], unsorted_list[i]
 
-print(unsorted_list)
+print('sorted list: ',unsorted_list)
+
+# Time Complexity = o(n^2)
